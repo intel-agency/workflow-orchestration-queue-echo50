@@ -1,0 +1,9 @@
+{
+  "name": "workflow-orchestration-queue-echo50-build",
+  "image": "ghcr.io/intel-agency/workflow-orchestration-queue-echo50:main-latest",
+  "containerEnv": {
+    "DOTNET_ROOT": "/usr/share/dotnet"
+  },
+  "forwardPorts": [4096],
+  "remoteUser": "vscode"
+}
